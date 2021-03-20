@@ -1,0 +1,8 @@
+def capital_indexes(text):
+    output=[]
+    for index, letter in enumerate(text):
+        if letter.isupper():
+            output.append(index)
+    return output
+
+capital_indexes("Hola")
